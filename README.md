@@ -4,14 +4,14 @@ In this project we have created a dashboard, with which we will see the renewabl
 
 ## Getting Started.
 1. We analyze the 10 tables.
-https://github.com/Paulcorreafl/project-m2/tree/main/ARCH
+https://github.com/Paulcorreafl/project-m2/tree/main/ARCH.
 -In this table we have all the necessary information to create our project.
 2. We create a star model.
 -We analyze the information.
 -We see how we can make the connections.
    
 5. Starting from this model we create a mockup with the tables and their connections.
-   https://github.com/Paulcorreafl/project-m2/tree/main/png
+   https://github.com/Paulcorreafl/project-m2/tree/main/png.
 
 ## Tools Used
 Power BI: For data transformation, modeling, and visualization.
