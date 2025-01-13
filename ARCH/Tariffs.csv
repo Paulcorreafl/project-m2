@@ -1,0 +1,6 @@
+TariffID,TariffName,PricePerKWh,StartDate,EndDate
+301,Standard Tariff,0.15,2022-01-01,2023-12-31
+302,Green Energy Plan,0.2,2023-05-01,
+303,Time-of-Use Tariff,0.18,2021-06-01,2024-06-30
+304,Night Saver Plan,0.12,2020-09-01,2023-09-30
+305,Premium Plan,0.25,2023-01-01,2025-12-31

@@ -1,0 +1,91 @@
+DeviceID,HouseholdID,DeviceName,EstimatedUsage
+601,101,Microwave,3.08
+602,101,Refrigerator,1.25
+603,101,Refrigerator,3.21
+604,101,Air Conditioner,1.3
+605,102,Electric Vehicle Charger,0.43
+606,102,Washing Machine,0.15
+607,103,Washing Machine,1.4
+608,103,Dishwasher,3.0
+609,103,Refrigerator,4.94
+610,103,Television,4.68
+611,104,Microwave,4.81
+612,104,Refrigerator,1.66
+613,104,Refrigerator,2.58
+614,105,Heater,2.19
+615,105,Electric Vehicle Charger,1.23
+616,105,Microwave,0.81
+617,106,Air Conditioner,3.02
+618,107,Washing Machine,1.55
+619,107,Washing Machine,3.9
+620,108,Microwave,1.21
+621,109,Refrigerator,2.15
+622,109,Microwave,3.25
+623,109,Electric Vehicle Charger,0.24
+624,109,Air Conditioner,3.55
+625,110,Air Conditioner,4.66
+626,111,Refrigerator,1.28
+627,111,Heater,3.96
+628,112,Television,0.44
+629,113,Heater,0.38
+630,114,Microwave,4.9
+631,114,Microwave,1.36
+632,114,Microwave,4.24
+633,114,Refrigerator,3.6
+634,115,Heater,1.56
+635,115,Microwave,4.99
+636,115,Microwave,2.65
+637,116,Refrigerator,2.29
+638,116,Microwave,1.49
+639,117,Washing Machine,1.82
+640,117,Refrigerator,0.93
+641,118,Electric Vehicle Charger,1.15
+642,118,Dishwasher,1.54
+643,118,Washing Machine,3.76
+644,119,Television,4.57
+645,120,Refrigerator,2.21
+646,120,Air Conditioner,1.87
+647,120,Electric Vehicle Charger,4.43
+648,120,Heater,1.94
+649,121,Television,0.74
+650,121,Electric Vehicle Charger,3.95
+651,122,Refrigerator,0.12
+652,122,Microwave,4.29
+653,123,Heater,1.33
+654,124,Refrigerator,3.09
+655,124,Dishwasher,0.46
+656,124,Microwave,1.19
+657,125,Air Conditioner,4.62
+658,125,Heater,3.7
+659,125,Refrigerator,3.64
+660,126,Dishwasher,1.99
+661,126,Air Conditioner,3.34
+662,127,Air Conditioner,4.74
+663,127,Washing Machine,2.46
+664,127,Refrigerator,3.61
+665,127,Microwave,1.25
+666,128,Washing Machine,4.53
+667,129,Heater,0.62
+668,129,Dishwasher,2.57
+669,129,Heater,1.38
+670,129,Electric Vehicle Charger,2.05
+671,130,Electric Vehicle Charger,2.03
+672,130,Microwave,0.37
+673,130,Electric Vehicle Charger,4.15
+674,131,Washing Machine,0.91
+675,132,Refrigerator,2.33
+676,133,Television,1.05
+677,133,Television,0.32
+678,133,Air Conditioner,1.65
+679,133,Electric Vehicle Charger,2.57
+680,134,Microwave,0.37
+681,135,Dishwasher,3.56
+682,135,Electric Vehicle Charger,1.82
+683,135,Washing Machine,0.75
+684,136,Dishwasher,3.3
+685,136,Microwave,0.3
+686,137,Television,2.73
+687,138,Refrigerator,1.21
+688,138,Air Conditioner,0.6
+689,139,Television,2.11
+690,140,Electric Vehicle Charger,1.11

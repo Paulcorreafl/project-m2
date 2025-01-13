@@ -1,0 +1,99 @@
+1. ResidentialAreas,,
+Tracks information about geographic areas.,,
+,,
+Field Name,Meaning,Example
+AreaID,Unique identifier for the residential area.,"1, 2, 2003"
+AreaName,Name of the residential area.,"Downtown District, ""Greenfield"""
+Region,Region where the area is located.,"North America, ""Europe"""
+Population,Total population in the residential area.,"5000, 12000"
+,,
+2. Households,,
+Captures details about individual households.,,
+,,
+Field Name,Meaning,Example
+HouseholdID,Unique identifier for the household.,"101, 102, 103"
+AreaID,References the residential area where the household is located.,"1 (linked to ""Downtown District"")"
+NumResidents,Number of residents in the household.,"4, 2"
+BuildingType,Type of building for the household.,"Apartment, ""Detached House"""
+SquareMeters,Size of the household in square meters.,"120.50, 85.75"
+,,
+3. ElectricityMeters,,
+Tracks details about electricity meters installed at households.,,
+,,
+Field Name,Meaning,Example
+MeterID,Unique identifier for the electricity meter.,"201, 202, 203"
+HouseholdID,References the household where the meter is installed.,101 (linked to a specific household)
+InstallationDate,Date the meter was installed.,"2020-01-15, ""2022-05-01"""
+MeterType,"Type of meter (e.g., Analog, Smart Meter).","Smart Meter, ""Analog"""
+TariffID,References the tariff plan applied to the meter.,"301 (linked to ""Standard Tariff"")"
+,,
+4. ConsumptionRecords,,
+Logs hourly or daily electricity usage data.,,
+,,
+Field Name,Meaning,Example
+RecordID,Unique identifier for the consumption record.,"401, 402, 403"
+MeterID,References the electricity meter recording the data.,"201 (linked to ""Meter 201"")"
+Timestamp,Date and time of the consumption record.,2023-11-20 15:00:00
+Consumption,Electricity consumed during the interval (in kWh).,"2.50, 1.75"
+,,
+5. Tariffs,,
+Tracks details about electricity pricing and tariff plans.,,
+,,
+Field Name,Meaning,Example
+TariffID,Unique identifier for the tariff plan.,"301, 302"
+TariffName,Name of the tariff plan.,"Standard Tariff, ""Green Energy Plan"""
+PricePerKWh,Price per kilowatt-hour under this plan.,"0.15, 0.20"
+StartDate,Start date for the tariff plan.,"2022-01-01, ""2023-05-01"""
+EndDate,End date for the tariff plan (NULL if ongoing).,"2023-12-31, NULL"
+,,
+6. Weather,,
+Tracks weather conditions affecting electricity usage.,,
+,,
+Field Name,Meaning,Example
+WeatherID,Unique identifier for the weather record.,"501, 502"
+AreaID,References the residential area affected by the weather.,"1 (linked to ""Downtown District"")"
+Date,Date of the weather record.,"2023-11-20, ""2023-11-21"""
+Temperature,Average temperature on the date (°C).,"22.5, 15.0"
+Humidity,Average humidity on the date (%).,"60.0, 75.0"
+WindSpeed,Wind speed on the date (m/s).,"5.0, 10.0"
+Precipitation,Precipitation level on the date (mm).,"10.0, 0.0"
+,,
+7. Devices,,
+Tracks electric devices in households and their estimated usage.,,
+,,
+Field Name,Meaning,Example
+DeviceID,Unique identifier for the device.,"601, 602"
+HouseholdID,References the household using the device.,"101 (linked to ""Household 101"")"
+DeviceName,Name of the device.,"Refrigerator, ""Air Conditioner"""
+EstimatedUsage,Estimated electricity usage per hour (kWh).,"0.2, 1.5"
+,,
+8. RenewableEnergySources,,
+Tracks households generating their own electricity.,,
+,,
+Field Name,Meaning,Example
+SourceID,Unique identifier for the renewable energy source.,"701, 702"
+HouseholdID,References the household using the renewable source.,"101 (linked to ""Household 101"")"
+SourceType,Type of renewable energy source.,"Solar, ""Wind"""
+Capacity,Installed capacity of the source (kW).,"5.0, 10.0"
+InstallationDate,Date the source was installed.,"2021-05-01, ""2020-03-15"""
+,,
+9. Outages,,
+Logs power outages affecting residential areas.,,
+,,
+Field Name,Meaning,Example
+OutageID,Unique identifier for the outage.,"801, 802"
+AreaID,References the residential area affected by the outage.,"1 (linked to ""Downtown District"")"
+StartTime,Start time of the outage.,2023-11-20 8:00:00
+EndTime,End time of the outage.,2023-11-20 10:30:00
+Reason,Reason for the outage.,"Maintenance, ""Storm Damage"""
+,,
+10. EnergyEfficiencyCampaigns,,
+Tracks campaigns promoting energy efficiency.,,
+,,
+Field Name,Meaning,Example
+CampaignID,Unique identifier for the campaign.,"901, 902"
+AreaID,References the residential area targeted by the campaign.,"1 (linked to ""Downtown District"")"
+CampaignName,Name of the campaign.,"Save Energy Initiative, ""Green Homes Project"""
+StartDate,Start date of the campaign.,"2023-05-01, ""2023-10-01"""
+EndDate,End date of the campaign.,"2023-12-31, ""2024-03-31"""
+Description,Description of the campaign.,Encouraging residents to reduce energy usage by 20%.
