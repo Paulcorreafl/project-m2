@@ -20,10 +20,10 @@ CSV Files: Original data source.
 # Conclution
 The dashboard is designed to provide the most information to create the best offers and cover a larger market.
 For this we have created the dashboard in which we have:
-*-number of residents.
-*-number of kWh
-*-consumption percentage
-*-rates and their prices
+* -number of residents.
+* -number of kWh
+* -consumption percentage
+* -rates and their prices
 -type of housing
 -consumption by area
 -number of houses by area
