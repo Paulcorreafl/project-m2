@@ -14,8 +14,8 @@ In this project we have created a dashboard, with which we will see the renewabl
   * https://github.com/Paulcorreafl/project-m2/tree/main/png.
 
 ## Tools Used
-Power BI: For data transformation, modeling, and visualization.
-CSV Files: Original data source.
+### Power BI: For data transformation, modeling, and visualization.
+### CSV Files: Original data source.
 
 # Conclution
 The dashboard is designed to provide the most information to create the best offers and cover a larger market.
